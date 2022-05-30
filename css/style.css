@@ -1,0 +1,31 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    padding: 0px auto;
+    background-color: #02226e;
+}
+
+#container > main {
+    display: flex;
+    flex-direction: column;    
+}
+
+main {
+    align-items: center;
+    justify-content: center;    
+}
+
+section {
+    background-color: #66ba7d;
+    border-radius: 1%;
+    margin-top: 40px;
+    padding: 20px 70px 60px 70px;
+}
+
+#score {
+    color: '#2a5736';
+}
+
+canvas {
+    border: 3px dashed #2a5736;    
+}
